@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
   padding: 0;
@@ -9,38 +9,41 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
-  
+}
+
+body {
+  background-color: var(--silver);
 }
 
 :root {
-  --primary-color: #28CB8B;
+  --primary-color: #28cb8b;
   --second-color: #263238;
   --info-color: #2194f3;
 
   --black: #263238;
-  --d-grey: #4D4D4D;
+  --d-grey: #4d4d4d;
   --grey: #717171;
-  --grey-900: #18191F;
-  --l-grey: #89939E;
-  --blue-grey: #ABBED1;
-  --silver: ##F5F7FA;
+  --grey-900: #18191f;
+  --l-grey: #89939e;
+  --blue-grey: #abbed1;
+  --silver: #f5f7fa;
   --white: #f1f1f1;
-  
-  --shade-100: #43A046;
-  --shade-200: #388E3B;
-  --shade-300: #237D31;
-  --shade-400: #1B5E1F;
-  --shade-500: #103E13;
-  
-  --tint-100: #66BB69;
-  --tint-200: #81C784;
-  --tint-300: #A5D6A7;
-  --tint-400: #C8E6C9;
-  --tint-500: #E8F5E9;
-  
-  --action-success: #2E7D31;
-  --action-warning: #FBC02D;
-  --action-error: #E53835;
+
+  --shade-100: #43a046;
+  --shade-200: #388e3b;
+  --shade-300: #237d31;
+  --shade-400: #1b5e1f;
+  --shade-500: #103e13;
+
+  --tint-100: #66bb69;
+  --tint-200: #81c784;
+  --tint-300: #a5d6a7;
+  --tint-400: #c8e6c9;
+  --tint-500: #e8f5e9;
+
+  --action-success: #2e7d31;
+  --action-warning: #fbc02d;
+  --action-error: #e53835;
 
   --semi-bold: 600;
   --heading-100: 64px;
@@ -61,4 +64,18 @@
   --shadow-200: 6px;
   --shadow-300: 8px;
   --shadow-400: 16px;
+}
+
+.default-btn {
+  background-color: var(--silver);
+  color: var(--primary-color);
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 10px 20px;
 }
