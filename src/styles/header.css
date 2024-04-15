@@ -1,23 +1,29 @@
 @import url(global.css);
 
-.header{
+.header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   margin: 30px 0;
 }
 
-.logo{
+.logo {
   padding-left: 105px;
 }
 
-.navbar{
+.navbar {
   display: flex;
   gap: 50px;
 }
 
-.navbar a{
+.navbar a {
   color: var(--grey-900);
   font-weight: var(--medium);
   font-size: var(--body-200);
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
 }
