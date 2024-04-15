@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  
+}
+
+:root {
+  --primary-color: #28CB8B;
+  --second-color: #263238;
+  --info-color: #2194f3;
+
+  --black: #263238;
+  --d-grey: #4D4D4D;
+  --grey: #717171;
+  --l-grey: #89939E;
+  --blue-grey: #ABBED1;
+  --silver: ##F5F7FA;
+  --white: #f1f1f1;
+  
+  --shade-100: #43A046;
+  --shade-200: #388E3B;
+  --shade-300: #237D31;
+  --shade-400: #1B5E1F;
+  --shade-500: #103E13;
+  
+  --tint-100: #66BB69;
+  --tint-200: #81C784;
+  --tint-300: #A5D6A7;
+  --tint-400: #C8E6C9;
+  --tint-500: #E8F5E9;
+  
+  --action-success: #2E7D31;
+  --action-warning: #FBC02D;
+  --action-error: #E53835;
+
+  --semi-bold: 600;
+  --heading-100: 64px;
+  --heading-200: 36px;
+  --heading-300: 28px;
+  --heading-400: 20px;
+
+  --medium: 500;
+
+  --regular: 400;
+
+  --body-100: 18px;
+  --body-200: 16px;
+  --body-300: 14px;
+  --body-400: 12px;
+
+  --shadow-100: 2px;
+  --shadow-200: 6px;
+  --shadow-300: 8px;
+  --shadow-400: 16px;
+}
