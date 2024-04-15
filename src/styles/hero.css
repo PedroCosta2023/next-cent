@@ -1,0 +1,29 @@
+@import url(global.css);
+
+.hero-section {
+  display: flex;
+  height: 87vh;
+  padding: 0 140px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-weight: var(--semi-bold);
+  font-size: var(--heading-100);
+  line-height: 76px;
+}
+
+.banner p {
+  font-weight: var(--regular);
+  font-size: var(--body-200);
+  padding: 16px 0 32px 0;
+}
+
+.d-grey {
+  color: var(--d-grey);
+}
+
+.green {
+  color: var(--primary-color);
+}
