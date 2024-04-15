@@ -79,3 +79,10 @@ body {
   border-radius: 6px;
   padding: 10px 20px;
 }
+
+.primary-medium-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 14px 32px;
+}
