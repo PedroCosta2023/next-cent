@@ -31,8 +31,8 @@
 .dot-group {
   display: flex;
   gap: 8px;
-  position: fixed;
-  bottom: 26px;
+  position: relative;
+  bottom: 52px;
   left: 50%;
 }
 
