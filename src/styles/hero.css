@@ -27,3 +27,26 @@
 .green {
   color: var(--primary-color);
 }
+
+.dot-group {
+  display: flex;
+  gap: 8px;
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+}
+
+.dot-active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  opacity: 0.3;
+}
