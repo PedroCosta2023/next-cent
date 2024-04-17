@@ -7,20 +7,20 @@
     padding: 40px 0;
 }
 
-.text-mkt{
+.client-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
 }
 
-.text-mkt > h1{
+.client-text > h1{
     font-size: var(--heading-200);
     font-weight: var(--semi-bold);
     color: var(--d-grey);
 }
 
-.text-mkt > p{
+.client-text > p{
     font-size: var(--body-200);
     font-weight: var(--regular);
     color: var(--grey);
