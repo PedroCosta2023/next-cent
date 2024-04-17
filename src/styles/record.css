@@ -1,0 +1,19 @@
+.record-section{
+    display: flex;
+    flex-direction: row;
+    gap: 49px;
+    padding: 0 144px;
+    justify-content: space-around;
+    background-color: var(--white-1000);
+}
+
+.record-description{
+    display: flex;
+    flex-direction: column;
+    width: 661px;
+
+}
+
+.record-description > button{
+    width: unset;
+}
