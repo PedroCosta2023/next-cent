@@ -46,15 +46,16 @@ body {
   --action-warning: #fbc02d;
   --action-error: #e53835;
 
-  --semi-bold: 600;
   --heading-100: 64px;
   --heading-200: 36px;
   --heading-300: 28px;
   --heading-400: 20px;
-
+  
+  --bold: 700;
+  --semi-bold: 600;
   --medium: 500;
-
   --regular: 400;
+
 
   --body-100: 18px;
   --body-200: 16px;
@@ -86,4 +87,28 @@ body {
   color: var(--white);
   border-radius: 6px;
   padding: 14px 32px;
+}
+
+.headdine-two-semi-d-grey-text{
+  font-size: var(--heading-200);
+  font-weight: var(--semi-bold);
+  color: var(--d-grey);
+}
+
+.body-two-regular-grey-text{
+  font-size: var(--body-200);
+  font-weight: var(--regular);
+  color: var(--grey);
+}
+
+.headdine-three-bold-d-grey-text{
+  font-size: var(--heading-300);
+  font-weight: var(--bold);
+  color: var(--d-grey);
+}
+
+.body-three-regular-grey-text{
+  font-size: var(--body-300);
+  font-weight: var(--regular);
+  color: var(--grey);
 }
