@@ -1,0 +1,11 @@
+.customers-section {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 144px;
+  gap: 78px;
+}
+
+.custumer-preview{
+  display: flex;
+}
+

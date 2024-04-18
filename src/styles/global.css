@@ -106,6 +106,12 @@ body {
   color: var(--grey);
 }
 
+.body-two-medium-grey-text {
+  font-size: var(--body-200);
+  font-weight: var(--medium);
+  color: var(--grey);
+}
+
 .headline-three-bold-d-grey-text {
   font-size: var(--heading-300);
   font-weight: var(--bold);
@@ -116,4 +122,10 @@ body {
   font-size: var(--body-300);
   font-weight: var(--regular);
   color: var(--grey);
+}
+
+.headline-four-semi-green-text {
+  font-size: var(--heading-400);
+  font-weight: var(--semi-bold);
+  color: var(--primary-color);
 }
