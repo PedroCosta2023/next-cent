@@ -5,7 +5,30 @@
   gap: 78px;
 }
 
-.custumer-preview{
+.customers-content{
   display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
+.customer-testimony{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.customer-text{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.customer-preview{
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+
+.bx-right-arrow-alt{
+  color: var(--primary-color);
+}
