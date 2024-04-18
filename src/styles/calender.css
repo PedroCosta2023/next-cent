@@ -1,0 +1,27 @@
+.calender-section {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white-1000);
+  justify-content: space-evenly;
+  width: 100vw;
+  align-items: center;
+  padding: 48px 144px;
+  gap: 50px;
+}
+
+.calender-description {
+  display: flex;
+  flex-direction: column;
+  max-width: 635px;
+  gap: 32px;
+}
+
+.calender-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calender-description > button {
+  width: fit-content;
+}
