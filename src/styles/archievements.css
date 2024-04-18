@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 64px 144px;
+  gap: 72px;
 }
 
 .counts-section {
