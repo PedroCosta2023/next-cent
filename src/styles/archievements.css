@@ -1,0 +1,25 @@
+.archievements-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.counts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 255px;
+  gap: 16px;
+}
