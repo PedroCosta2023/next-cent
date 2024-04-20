@@ -135,3 +135,10 @@ section{
   font-weight: var(--semi-bold);
   color: var(--primary-color);
 }
+
+.headline-four-semi-grey-text {
+  font-size: var(--heading-400);
+  font-weight: var(--semi-bold);
+  color: var(--grey);
+}
+

@@ -31,6 +31,7 @@
   height: 366px;
   background-color: red;
   justify-content: center;
+  text-align: center;
 }
 
 .woman{
@@ -58,4 +59,5 @@
   width: calc(24.15vw - 50px);
   height: 176px;
   background-color: var(--silver);
+  gap: 16px;
 }
