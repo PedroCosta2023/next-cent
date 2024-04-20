@@ -13,6 +13,12 @@
 
 body {
   background-color: var(--silver);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  width: 100%;
+}
+
+section{
+  width: 100vw;
 }
 
 :root {

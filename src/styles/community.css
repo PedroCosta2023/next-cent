@@ -1,3 +1,7 @@
+.community {
+    width: 100%;
+}
+
 .community-section {
     display: flex;
     flex-direction: column;
