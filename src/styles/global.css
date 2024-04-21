@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-section{
+section {
   width: 100vw;
 }
 
@@ -94,6 +94,12 @@ section{
   padding: 14px 32px;
 }
 
+.body-one-semi-grey-text {
+  font-size: var(--body-100);
+  font-weight: var(--semi-bold);
+  color: var(--grey);
+}
+
 .headline-two-semi-d-grey-text {
   font-size: var(--heading-200);
   font-weight: var(--semi-bold);
@@ -141,4 +147,3 @@ section{
   font-weight: var(--semi-bold);
   color: var(--grey);
 }
-
