@@ -92,6 +92,8 @@ section {
   color: var(--white);
   border-radius: 6px;
   padding: 14px 32px;
+  display: flex;
+  align-items: center;
 }
 
 .body-one-semi-grey-text {
