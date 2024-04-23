@@ -1,0 +1,21 @@
+.demo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 32px;
+  padding: 32px 0;
+  background-color: var(--silver);
+}
+
+.demo-title {
+  font-size: var(--heading-100);
+  font-weight: var(--semi);
+  line-height: 74px;
+  text-align: center;
+  width: 61.6%;
+}
+
+.white {
+  color: var(--white);
+}
