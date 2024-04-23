@@ -2,4 +2,36 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: var(--black);
+  padding: 64px 165px;
+  gap: 125px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  color: var(--white-1000);
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
