@@ -138,10 +138,22 @@ section {
   color: var(--grey);
 }
 
+.body-three-regular-silver-text {
+  font-size: var(--body-300);
+  font-weight: var(--regular);
+  color: var(--silver);
+}
+
 .headline-four-semi-green-text {
   font-size: var(--heading-400);
   font-weight: var(--semi-bold);
   color: var(--primary-color);
+}
+
+.headline-four-semi-white-text {
+  font-size: var(--heading-400);
+  font-weight: var(--semi-bold);
+  color: var(--white-1000);
 }
 
 .headline-four-semi-grey-text {
