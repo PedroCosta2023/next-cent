@@ -1,0 +1,5 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--black);
+}
